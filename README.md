@@ -4,4 +4,5 @@
 
 - add a `key` file including the authentication key from your deepl account
 - adjust the `key` file path in `src/main.rs`
-- translate ahead, e.g.: `cargo run 'good morning'`
+- install with `cargo install --path=.`
+- translate ahead, e.g.: `./target/release/deepl 'good morning'`

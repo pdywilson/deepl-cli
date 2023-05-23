@@ -1,0 +1,3 @@
+[x] add key to file, read from file and add to gitignore
+[ ] make into a full cli too
+[ ] publish cargo? 

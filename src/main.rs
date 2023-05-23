@@ -16,7 +16,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let client = reqwest::Client::new();
 
-    let file_path = "/Users/patrickwilson/dev/fun/deepl/key";
+    let file_path = "/Users/pdywilson/dev/fun/deepl-cli/key";
     let mut file = fs::File::open(file_path).expect("Failed to open file");
     let mut content = String::new();
     file.read_to_string(&mut content).expect("Failed to read file");
